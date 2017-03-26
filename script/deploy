@@ -2,7 +2,7 @@
 
 ssh root@104.236.249.46 <<<EOF
 	cd ~/hello-jenkins
-	git pull
+	git pull origin master
 	npm install --production
 	forever restartall
 	exit
